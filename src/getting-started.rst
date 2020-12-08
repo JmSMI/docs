@@ -19,6 +19,7 @@ Installation
 
       .. note::
          macOS 10.15 (Catalina) introduced some complications for running ActivityWatch, see :issue:`334`.
+         macOS 10.14 (Mojave) if you experience repeated requests to allow System Events control you may need to launch the application directly from ActivityWatch\Contents\MacOS\aq-qt
 
       Download the ``.dmg`` for the `latest release from GitHub <https://github.com/ActivityWatch/activitywatch/releases>`_ and drag the ``.app`` to your Applications folder as usual, then add it to your autostart applications.
 
@@ -69,7 +70,7 @@ Config
 Configuration files for ActivityWatch can be found at the following default locations:
 
 - Unix: :code:`~/.config/activitywatch` or the path defined by the :code:`$XDG_CONFIG_HOME` environment variable.
-- Mac OS X: :code:`~/Library/Application\ Support/activitywatch/`
+- Mac OS X: :code:`~/Library/Application Support/activitywatch/`
 - Windows: :code:`%LocalAppData%\activitywatch\activitywatch`
 
 Config options for the server, client, and default watchers are listed below:
